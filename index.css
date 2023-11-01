@@ -41,7 +41,7 @@ border: 2px solid white;
 .navbar ul{
 margin-right: 10px;
 }
-li{
+.navbar li{
   list-style: none;
   margin: 10px;
 }
@@ -54,6 +54,9 @@ ul{
 }
 ul .nav-item1 a{
   color: aqua;
+}
+.carousel-indicators{
+  list-style: none;
 }
 #heading{
  

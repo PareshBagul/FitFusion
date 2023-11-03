@@ -19,12 +19,10 @@ border-radius: 10px;
 
 /* Diabetes */
 
-
 .navbar{
   /* background: linear-gradient(110deg, white 60%, darkblue 60%); */
   background-color: rgb(16, 16, 83);
 
-  
 }
 .navbar a{
 text-decoration: none;
@@ -179,14 +177,23 @@ height: 350px;
 border: 3px solid yellowgreen;
 outline: 3px solid red;
 border-radius: 10px 10px 50px 50px;
-background-image: url(diabetes2.jpg);
+background-image: url(Diabetes2.jpg);
 background-size: cover;
 }
-.contain{
-text-align: center;
-margin-top: 65px;
+.absolute h1{
+  margin-top: 20px;
 }
-
+.absolute .contain{
+  text-align: center;
+  line-height: 100px;   
+  
+  }
+/* .absolute .contain button{
+  display: block;
+  margin: auto;
+    
+  } */
+  
 
 @media only screen and (max-width: 1200px) {
 .circle {
@@ -203,11 +210,52 @@ margin-top: 65px;
  }
  
 }
+.Diabetes p{
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+}
+.Diabetes h1{
+  color: rgb(16, 16, 83);
+  text-shadow: 2px 2px 8px #FF0000;
+  
+}
 
 /* Footer */
 .footer{
 color: white;
-background-color:rgb(27, 21, 21);
+/* background:linear-gradient(to right,#00093c,#2d0b00); */
+background-color: rgb(27, 18, 18);
 width: 100%;
-height: 300px;
+
+
+
+}
+.footer .container{
+ padding-top: 10px;
+}
+.footer img{
+  margin-left: 10px;
+border-radius: 10px;
+border: 2px solid white;
+}
+
+/*scroll_to_top */
+#back_to_top{
+  
+  position: fixed;
+  z-index: 9999;
+  bottom: 5px;
+  right: 2px;
+  border: 2px solid skyblue;
+  height: 50px;
+  background-color:rgb(16, 16, 83);
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 10px;
+  
+}
+#back_to_top a{
+  color: white;
 }

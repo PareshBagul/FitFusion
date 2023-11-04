@@ -1,6 +1,6 @@
 .navbar{
     /* background: linear-gradient(110deg, white 60%, darkblue 60%); */
-    background-color: rgb(16, 16, 83);
+    background-color: darkblue;
   
     
   }
@@ -45,12 +45,12 @@ img{
 
 .container h1{
     margin-top: 50px;
-   color: rgb(16, 16, 83);
+   color: darkblue;
    font-weight: bold;
 }
 .container button{
   
-    background-color: rgb(16, 16, 83);
+    background-color: darkblue;
     width: 300px;
     color: white;
     margin-top: 5px;
@@ -64,5 +64,5 @@ img{
 
 .description p{
   font-weight: bold;
-  color:rgb(16, 16, 83) ;
+  color:darkblue ;
 }

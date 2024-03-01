@@ -19,7 +19,8 @@ border-radius: 10px;
 
 /* Diabetes */
 h5 {
-  color: black;
+     color: black;
+     align: center;
 }
 .navbar{
   /* background: linear-gradient(110deg, white 60%, darkblue 60%); */

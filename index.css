@@ -18,7 +18,9 @@ border-radius: 10px;
 } */
 
 /* Diabetes */
-
+h5 {
+  color: black;
+}
 .navbar{
   /* background: linear-gradient(110deg, white 60%, darkblue 60%); */
   background-color: rgb(16, 16, 83);

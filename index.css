@@ -261,7 +261,7 @@ border: 2px solid white;
   padding: 10px;
 
  /*Diabetes*/
- * {
+ /* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -326,7 +326,7 @@ body {
   margin-top: 10px;
   background-color: rgb(16, 16, 83);
   /* text-shadow: 2px 2px #ff0000; */
-  color: white;
+  /*color: white;
   border-radius: 10px;
   padding: 10px;
 }
@@ -337,4 +337,4 @@ body {
 }
 #back_to_top a{
   color: white;
-}
+}*/

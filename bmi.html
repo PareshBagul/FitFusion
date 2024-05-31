@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bmi.css">
+    <link rel="icon" href="logo.jpg"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>FitFusion: Your Path to Peak Performance</title>
+</head>
+<body>
+   
+    <nav id="start" class="navbar navbar-expand-lg navbar-dark" >
+      
+        <img src="logo.jpg" height="70px" width="70px" alt="">
+        <div class="navbar-brand"><h1>Fit Fusion</h1></div> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav" >
+                
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="" id="second">BMI</a></li>
+                <li class="nav-item"><a href="index.html#fitness">Fitness</a></li>
+                <li class="nav-item"><a href="#diet">Diet</a></li>
+                <li class="nav-item"><a href="#diabetes">Diabetes</a></li>
+                <li class="nav-item"><a href="AboutUs.html">About Us</a></li>
+                <!-- <li class="nav-item dropdown">
+                  <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" data-target="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                  <div class="dropdown-menu" id="navbarDropdown">
+                      <div class="dropdown-item">info</div>
+                      <div class="dropdown-item">info</div>
+                      <div class="dropdown-item">info</div>
+                  </div>
+              </li> -->
+                <form class="nav-item d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </ul>
+        </div>
+       
+    </nav>
+    
+    
+    <div class="include">
+    <div class="contain">
+        <div class="box">
+            <h1>BMI Calculator</h1>
+            <div class="content">
+
+
+                <div class="input">
+                    <label for="height">Age</label>
+                    <input type="text" class="text-input" id="age" autocomplete="off" required>
+                </div>
+
+                <div class="gender">
+
+                    <label class="contains">
+                        <input type="radio" name="radio" id="m"><p class="text">Male</p>
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="contains">
+                        <input type="radio" name="radio" id="f"><p class="text">Female</p>
+                        <span class="checkmark"></span>
+                    </label>
+
+
+                </div>
+
+                <div class="containerHW">
+
+                    <div class="inputH">
+                        <label for="height">Height(cm)</label>
+                        <input type="number" id="height" required>
+                    </div>
+
+                    <div class="inputW">
+                        <label for="Weight">Weight(kg)</label>
+                        <input type="number" id="weight" required>
+                    </div>
+
+                </div>
+                <button class="Calculate" id="submit" onclick="calculate();">Calculate BMI</button>
+            </div>
+            <div class="result">
+                <p>Your BMI is</p>
+                <div id="result">00.00</div>
+                <p class="comment"></p>
+                <p id="fitnessplan"></p>
+            </div>
+            
+        </div>
+    </div>
+</div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modalText"></p>
+        </div>
+    </div>
+
+    <script src="bmi.js"></script>
+</body>
+</html>
